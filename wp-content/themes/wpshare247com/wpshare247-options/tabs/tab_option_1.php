@@ -1,0 +1,168 @@
+<?php
+$section_id = basename(__FILE__, ".php"); // auto create ID, you can name too
+$arr_section[$section_id] = [
+    "title" => __("Tên tab 1", OPTIONS_TEXTDOMAIN),
+    "description" => __("Mô tả tab", OPTIONS_TEXTDOMAIN),
+    "fields" => [
+        //only declare array fields here............./
+
+        // Text
+        [
+            "id" => "demo_text",
+            "type" => "text",
+            "label" => "Text box",
+            "default" => "",
+            "placeholder" => "Enter your value here",
+            "note" => "Your note here......",
+        ],
+
+        // Select
+        [
+            "id" => "demo_select",
+            "type" => "select",
+            "label" => "Select",
+            "options" => ["0" => "--Select--", "1" => "Val 1", "2" => "Val 2"],
+            "default" => "1",
+            "note" => "Your note here......",
+        ],
+
+        // Textarea
+        [
+            "id" => "demo_textarea",
+            "type" => "textarea",
+            "rows" => 5,
+            "label" => "Textarea",
+            "default" => "Your default",
+            "placeholder" => "Enter your value here",
+            "note" => "Your note here......",
+        ],
+
+        // Check Box 1
+        [
+            "id" => "demo_check_one",
+            "type" => "checkbox",
+            "label" => "Checkbox",
+            "default" => "1",
+        ],
+
+        // Check Box Many
+        [
+            "id" => "demo_check_many",
+            "type" => "checkbox_many",
+            "label" => "Checkbox (Many)",
+            "options" => [
+                //'Checkbox 1' => 1, { 1 =>checked ; else 0 }
+                "Checkbox 1" => 1,
+                "Checkbox 8" => 1,
+                "Checkbox 6" => 1,
+                "Checkbox 22" => 1,
+                "Checkbox 4" => 0,
+                "Checkbox 400" => 1,
+                "Checkbox 100" => 1,
+                "Checkbox 7" => 0,
+                "Checkbox 105" => 1,
+                "Checkbox 9" => 1,
+                "Checkbox 12" => 0,
+                "Checkbox 20" => 0,
+                "Checkbox 5" => 0,
+            ],
+        ],
+
+        [
+            "id" => "demo_check_many_2",
+            "type" => "checkbox_many",
+            "label" => "Do you like country?",
+            "options" => [
+                //'Checkbox 1' => 1, { 1 =>checked ; else 0 }
+                "Việt Nam" => 1,
+                "Thái Lan" => 0,
+                "Ấn độ" => 0,
+                "Hồng Kong" => 1,
+            ],
+        ],
+
+        // Radio
+        [
+            "id" => "demo_radio",
+            "type" => "radio",
+            "label" => "Radio",
+            "options" => [
+                "Việt Nam" => 0,
+                "Thái Lan" => 0,
+                "Ấn độ" => 1,
+                "Hồng Kong" => 0,
+            ],
+        ],
+
+        // Color Picker
+        [
+            "id" => "demo_color_picker",
+            "type" => "color-picker",
+            "label" => "Color Picker",
+            "default" => "#fff",
+            "note" => "Your note here......",
+        ],
+
+        // Image: is_multiple = true
+        [
+            "id" => "demo_image_single",
+            "type" => "image",
+            "is_multiple" => false,
+            "hide_attribute" => false,
+            "label" => "Images (Single)",
+            "default" => "",
+            "note" => "Your note here......",
+            "btn_text" => "Chọn hình",
+            "media_upload_title" =>
+                "Select or Upload Media Of Your Chosen Persuasion",
+            "media_upload_btn_text" => "Use this media",
+            "no_photo_text" =>
+                "No photos. Please click below button to upload photo",
+        ],
+
+        // Image: is_multiple = true
+        [
+            "id" => "demo_image",
+            "type" => "image",
+            "is_multiple" => true,
+            "hide_attribute" => false,
+            "label" => "Images (Multiple)",
+            "default" => "",
+            "note" => "Your note here......",
+            "btn_text" => "Chọn hình",
+            "media_upload_title" =>
+                "Select or Upload Media Of Your Chosen Persuasion",
+            "media_upload_btn_text" => "Use this media",
+            "no_photo_text" =>
+                "No photos. Please click below button to upload photo",
+        ],
+        [
+            "id" => "demo_slider",
+            "type" => "slider",
+            "attribute_placeholder" => [
+                "link" => "Href http://",
+                "desciption" => "Desciption",
+                "target" => "Open new tab",
+            ],
+            "label" => "Top Slider",
+            "default" => "",
+            "note" => "",
+            "btn_text" => "Add slide",
+            "media_upload_title" =>
+                "Select or Upload Media Of Your Chosen Persuasion",
+            "media_upload_btn_text" => "Use this media",
+            "no_photo_text" =>
+                "No photos. Please click below button to upload photo",
+        ],
+
+        // Editor
+        [
+            "id" => "demo_editor",
+            "type" => "editor",
+            "label" => "Editor",
+            "height" => "",
+            "default" => "Your default content",
+            "note" => "Your note here......",
+        ],
+    ],
+];

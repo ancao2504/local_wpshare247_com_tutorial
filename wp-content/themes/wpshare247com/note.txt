@@ -1,0 +1,13 @@
+1.plugin: Lightbox content images – WPSHARE247
+Zoom content images, photos in article content (post, page, custom post type)
+Cho phép click phóng to những hình ảnh trong nội dung bài viết. Hỗ trợ hình đơn hoặc thư viện ảnh soạn thảo cổ điển và Gutenberg block.
+2.plugin: Quick quotes – WPSHARE247
+Tạo yêu cầu báo giá nhanh chóng với mọi ngành nghề. Quản lý dễ dàng với các bước kéo thả riêng cho từng báo giá.
+Quản lý nhiều báo giá cùng lúc, quản lý danh sách yêu cầu báo giá, thông tin khách hàng diện thoại, email…
+Sau khi nhận báo giá sẽ tự động gửi mail thông báo. Và có thể quản lý nhiều loại tiền tệ.
+
+
+https://wpshare247.com/
+
+.../wp-admin
+ancao / 24635789
